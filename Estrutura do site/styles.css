@@ -259,11 +259,69 @@ h1 {
 }
 
 #fotos {
-    height: 400px;
-    margin-top: 50px;
-    margin-left: 30px;
+    height: 100px;
+    margin-top: 50px;  
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.sessao-fotos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container-fotos {
+    width: 90%;
+    margin-bottom: 50px;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card-1 {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-1:hover {
+    transform: scale(1.02);
+}
+
+
+.foto-01 {
+    background-image: url(https://img.ibxk.com.br/2022/01/21/21175634969004.jpg);
+}
+
+.foto-02 {
+    background-image: url(https://paranashop.com.br/wp-content/uploads/2022/02/poster_Batman.jpg);
+}
+
+.foto-03 {
+    background-image: url(https://img.elo7.com.br/product/original/3FBBEDD/big-poster-filme-batman-2022-90x60-cm-lo006-poster.jpg);
+}
+
+.foto-04 {
+    background-image: url(https://br.web.img3.acsta.net/pictures/22/03/02/19/26/3666027.jpg);
+}
+
+.foto-05 {
+    background-image: url(https://johto.legiaodosherois.com.br/wp-content/uploads/2020/08/legiao_xUuP7vKEwbTR.jpg);
+}
+
+.foto-06 {
+    background-image: url(https://hqrock.files.wordpress.com/2012/05/rises-poster-batman-fire-will-rise.jpg);
 }
 
 @media(max-width: 768px) {
